@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  graphite:
+  - apiVersion: v1
+    appVersion: 1.1.7-6
+    created: "2025-10-23T21:14:32.751691+04:00"
+    description: Graphite metrics server
+    digest: 54e029aa127c154b73b45e2a94c97c88a2125758645dce9fea26f4acab062b90
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    urls:
+    - https://raw.githubusercontent.com/rawfilescloud/charts/refs/heads/main/graphite-0.7.2.tgz
+    version: 0.7.2
   smtp:
   - apiVersion: v2
     appVersion: latest
@@ -12,4 +34,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/rawfilescloud/charts/refs/heads/main/smtp-1.0.1.tgz
     version: 1.0.1
-generated: "2025-09-19T17:43:42.897349+04:00"
+generated: "2025-10-23T21:14:32.749832+04:00"
